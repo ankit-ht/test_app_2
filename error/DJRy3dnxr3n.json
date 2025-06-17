@@ -1,0 +1,27 @@
+{
+  "_id": {
+    "$oid": "6828560a56a6f6405151cd2e"
+  },
+  "handle": "stylememaeve",
+  "shortcode": "DJRy3dnxr3n",
+  "caption": "NY I love you",
+  "comments": 67,
+  "likes": -1,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DJRy3dnxr3n/",
+  "video": false,
+  "timestamp": 1746461329,
+  "processed": true,
+  "__v": 0
+}

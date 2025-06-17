@@ -1,0 +1,21 @@
+{
+  "_id": {
+    "$oid": "681e422c81039bb50320b758"
+  },
+  "handle": "westcoastconnection",
+  "shortcode": "DJSNbHSz-kM",
+  "caption": "San Diego \ud83c\udfc4\u2600\ufe0f\ud83c\udf0a\ud83c\udfd6\ufe0f\n\n#sandiego #california #surfing",
+  "comments": 0,
+  "likes": 73,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DJSNbHSz-kM/",
+  "video": false,
+  "timestamp": 1746475270,
+  "processed": true,
+  "__v": 0
+}

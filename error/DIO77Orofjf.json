@@ -1,0 +1,17 @@
+{
+  "_id": {
+    "$oid": "680287fd269cc33e000427ca"
+  },
+  "handle": "seagate",
+  "shortcode": "DIO77Orofjf",
+  "caption": "What You Need to Know: @OpenAI\u2019s Storage Expansion\n\n OpenAI is exploring a major investment in storage infrastructure. If it proceeds, OpenAI would become one of the largest storage consumers globally.\n\n \ud83d\udcbd AI requires massive storage: Training advanced models depends on massive volumes of data upheld by scalable mass-capacity storage infrastructure. OpenAI is reportedly considering up to 5 exabytes, reflecting the scale of modern AI workloads.\n\n \ud83c\udfd7\ufe0f Expanding infrastructure strategy: As part of its $500B Stargate data center project, OpenAI is evaluating dedicated storage facilities to complement its existing cloud partnerships.\n\n \u2696\ufe0f Balancing cost and performance: Managing storage in-house could improve efficiency, particularly for saving AI model checkpoints, which are essential for model iteration, showing how the model arrived at insights, and intellectual property protection.\n\n \u26a1Scaling compute power: OpenAI plans to triple its data center capacity this year, giving researchers 8 times more computing power to advance AI capabilities.\n\n \ud83d\udcc8 Rising storage demand: As AI models become more sophisticated, efficient, high-capacity storage will be increasingly critical to keeping pace with innovation.",
+  "comments": 1,
+  "likes": 43,
+  "thumbnail": "false",
+  "carouselImages": null,
+  "url": "https://www.instagram.com/p/DIO77Orofjf/",
+  "video": true,
+  "timestamp": 1744217952,
+  "processed": true,
+  "__v": 0
+}

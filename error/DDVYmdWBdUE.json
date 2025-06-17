@@ -1,0 +1,27 @@
+{
+  "_id": {
+    "$oid": "6784e336ce02df029e27b074"
+  },
+  "handle": "vfiles",
+  "shortcode": "DDVYmdWBdUE",
+  "caption": "top 10 looks of the week \ud83d\udcaf",
+  "comments": 3,
+  "likes": -1,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DDVYmdWBdUE/",
+  "video": false,
+  "timestamp": 1733696874,
+  "processed": true,
+  "__v": 0
+}

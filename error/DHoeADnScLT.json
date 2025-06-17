@@ -1,0 +1,21 @@
+{
+  "_id": {
+    "$oid": "67e649c33093c3ffb50d29c0"
+  },
+  "handle": "girlfriend",
+  "shortcode": "DHoeADnScLT",
+  "caption": "TLDR: Luxe is back in fancy new colors.",
+  "comments": 3,
+  "likes": 180,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DHoeADnScLT/",
+  "video": false,
+  "timestamp": 1742927174,
+  "processed": true,
+  "__v": 0
+}

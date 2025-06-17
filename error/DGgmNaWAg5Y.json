@@ -1,0 +1,26 @@
+{
+  "_id": {
+    "$oid": "67c1b9e694449d9f04d30687"
+  },
+  "handle": "burberry",
+  "shortcode": "DGgmNaWAg5Y",
+  "caption": "Our community\n\nIan Wright, Yungblud, Asami Mizukawa, Masataka Kubota, Jodie Turner-Smith, Steve Coogan, Jourdan Dunn, Mika Hashizume and Zhang Youhao at Tate Britain for Burberry Winter 2025",
+  "comments": 120,
+  "likes": 8966,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    "https://ag-images.s3.amazonaws.com/burberry/481964423_18495643672033388_4876370602831127871_n.jpg"
+  ],
+  "url": "https://www.instagram.com/p/DGgmNaWAg5Y/",
+  "video": false,
+  "timestamp": 1740515558,
+  "processed": true,
+  "__v": 0
+}

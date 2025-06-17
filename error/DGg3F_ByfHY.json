@@ -1,0 +1,22 @@
+{
+  "_id": {
+    "$oid": "67c2d8e1a10425ed93e148e6"
+  },
+  "handle": "nerdwallet",
+  "shortcode": "DGg3F_ByfHY",
+  "caption": "Join the genius. Get Nerdy Merch. Link in bio.",
+  "comments": 3,
+  "likes": 68,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DGg3F_ByfHY/",
+  "video": false,
+  "timestamp": 1740524412,
+  "processed": true,
+  "__v": 0
+}

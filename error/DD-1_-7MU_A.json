@@ -1,0 +1,23 @@
+{
+  "_id": {
+    "$oid": "67c1b41a94449d9f04d30196"
+  },
+  "handle": "bridgertonnetflix",
+  "shortcode": "DD-1_-7MU_A",
+  "caption": "Rejoice for it is the season of joy and merriment!",
+  "comments": 2768,
+  "likes": 873366,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DD-1_-7MU_A/",
+  "video": false,
+  "timestamp": 1735131601,
+  "processed": true,
+  "__v": 0
+}

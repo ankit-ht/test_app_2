@@ -1,0 +1,20 @@
+{
+  "_id": {
+    "$oid": "682538ddcbe491955be623d4"
+  },
+  "handle": "microsoftteams",
+  "shortcode": "DJpRoVNPq00",
+  "caption": "So long, message clutter. \ud83e\udee1",
+  "comments": 0,
+  "likes": 28,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DJpRoVNPq00/",
+  "video": false,
+  "timestamp": 1747249212,
+  "processed": true,
+  "__v": 0
+}

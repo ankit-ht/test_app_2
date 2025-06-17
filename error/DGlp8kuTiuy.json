@@ -1,0 +1,22 @@
+{
+  "_id": {
+    "$oid": "67c30cb6b9675c04455339fd"
+  },
+  "handle": "pfchangs",
+  "shortcode": "DGlp8kuTiuy",
+  "caption": "Our first location in Delaware officially opened this week! Stop by @christianamall and visit us today. Where should we open next? \ud83c\udf5c",
+  "comments": 44,
+  "likes": 440,
+  "thumbnail": "false",
+  "carouselImages": [
+    "https://ag-images.s3.amazonaws.com/pfchangs/482011175_18486935263004218_7502229011914749907_n.jpg",
+    "https://ag-images.s3.amazonaws.com/pfchangs/482002212_18486935281004218_1077641925640747527_n.jpg",
+    "https://ag-images.s3.amazonaws.com/pfchangs/481988389_18486935299004218_8091201639848319036_n.jpg",
+    "https://ag-images.s3.amazonaws.com/pfchangs/482441317_18486935311004218_1982733637501925093_n.jpg"
+  ],
+  "url": "https://www.instagram.com/p/DGlp8kuTiuy/",
+  "video": false,
+  "timestamp": 1740685290,
+  "processed": true,
+  "__v": 0
+}

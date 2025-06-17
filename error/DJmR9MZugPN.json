@@ -1,0 +1,30 @@
+{
+  "_id": {
+    "$oid": "6826d29bf02278a8995a45fd"
+  },
+  "handle": "nickelodeon",
+  "shortcode": "DJmR9MZugPN",
+  "caption": "It\u2019s giving mother",
+  "comments": 114,
+  "likes": 63489,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DJmR9MZugPN/",
+  "video": false,
+  "timestamp": 1747148717,
+  "processed": true,
+  "__v": 0
+}

@@ -1,0 +1,21 @@
+{
+  "_id": {
+    "$oid": "6842c9ab46b02400dae9ffcf"
+  },
+  "handle": "jaime_king",
+  "shortcode": "DG0t_ZbJhIv",
+  "caption": "Some Vanity Fair Oscar Party throwbacks. \ud83e\udd42",
+  "comments": 88,
+  "likes": -1,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    "https://ag-images.s3.amazonaws.com/jaime_king/482717347_18493479907005540_4232393706903302419_n.jpg",
+    "https://ag-images.s3.amazonaws.com/jaime_king/482405527_18493479910005540_7273081042841292142_n.jpg"
+  ],
+  "url": "https://www.instagram.com/p/DG0t_ZbJhIv/",
+  "video": false,
+  "timestamp": 1741190726,
+  "processed": true,
+  "__v": 0
+}

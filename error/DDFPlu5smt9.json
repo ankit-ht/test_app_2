@@ -1,0 +1,23 @@
+{
+  "_id": {
+    "$oid": "675fe78aa35681bcab44004b"
+  },
+  "handle": "monostravel",
+  "shortcode": "DDFPlu5smt9",
+  "caption": "The Cyber Week Sale is here \u2013 save up to 40% off everything. #Monos",
+  "comments": 12,
+  "likes": 81,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DDFPlu5smt9/",
+  "video": false,
+  "timestamp": 1733155280,
+  "processed": true,
+  "__v": 0
+}

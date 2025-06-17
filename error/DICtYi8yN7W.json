@@ -1,0 +1,21 @@
+{
+  "_id": {
+    "$oid": "6802332f5d443ea89d356dd2"
+  },
+  "handle": "barstoolsansomstreet",
+  "shortcode": "DICtYi8yN7W",
+  "caption": "fridays are for barstool \ud83e\udd75\ud83d\udd25",
+  "comments": 1,
+  "likes": -1,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DICtYi8yN7W/",
+  "video": false,
+  "timestamp": 1743807600,
+  "processed": true,
+  "__v": 0
+}

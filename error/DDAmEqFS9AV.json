@@ -1,0 +1,23 @@
+{
+  "_id": {
+    "$oid": "6828a41948e4d1500c1ea4ba"
+  },
+  "handle": "mdskinlabmiami",
+  "shortcode": "DDAmEqFS9AV",
+  "caption": null,
+  "comments": 3,
+  "likes": 41,
+  "thumbnail": "false",
+  "carouselImages": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "url": "https://www.instagram.com/p/DDAmEqFS9AV/",
+  "video": false,
+  "timestamp": 1732999294,
+  "processed": true,
+  "__v": 0
+}
