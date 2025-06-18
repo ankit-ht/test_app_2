@@ -1,11 +1,8 @@
 import os
 import json
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
-from bs4 import BeautifulSoup
+import httpx
+from urllib.parse import quote
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 DATA_FOLDER = "data"
@@ -13,22 +10,41 @@ ERROR_FOLDER = "error"
 os.makedirs(DATA_FOLDER, exist_ok=True)
 os.makedirs(ERROR_FOLDER, exist_ok=True)
 
-def get_display_url(post_url):
-    options = Options()
-    options.add_argument("--headless=new")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--no-sandbox")
-    
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+INSTAGRAM_DOC_ID = "8845758582119845"
+
+def get_display_url(post_url_or_shortcode):
+    # Extract shortcode from URL or use directly
+    if "instagram.com" in post_url_or_shortcode:
+        shortcode = post_url_or_shortcode.split("/p/")[-1].split("/")[0]
+    else:
+        shortcode = post_url_or_shortcode.strip()
+
+    variables = {
+        "shortcode": shortcode,
+        "fetch_comment_count": 0,
+        "parent_comment_count": 0,
+        "has_threaded_comments": True,
+        "hoisted_comment_id": None,
+        "hoisted_reply_id": None,
+        "hoisted_reply_author_id": None
+    }
+
+    url = f"https://www.instagram.com/graphql/query/?doc_id={INSTAGRAM_DOC_ID}&variables={quote(json.dumps(variables))}"
+
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "X-IG-App-ID": "936619743392459",
+        "Accept": "*/*"
+    }
 
     try:
-        driver.get(post_url)
-        time.sleep(5)
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        thumbnail = soup.find("meta", property="og:image")
-        return thumbnail['content'] if thumbnail else None
-    finally:
-        driver.quit()
+        response = httpx.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        return data["data"]["xdt_shortcode_media"]["display_url"]
+    except Exception as e:
+        print(f"Error fetching thumbnail for {shortcode}: {e}")
+        return None
 
 def process_single_post(post):
     shortcode = post.get("shortcode")
@@ -88,7 +104,7 @@ def process_posts(json_path):
 
     print(f"🚀 Processing {len(posts)} posts")
 
-    with ThreadPoolExecutor(max_workers=30) as executor:
+    with ThreadPoolExecutor(max_workers=20) as executor:
         futures = [executor.submit(process_single_post, post) for post in posts]
         for future in as_completed(futures):
             print(future.result())
@@ -131,5 +147,5 @@ def retry_error_posts():
 
 # 🔧 Run the script
 if __name__ == "__main__":
-    # process_posts("test.instagramPosts.json")  # Uncomment to run full processing
-    retry_error_posts()  # Run only retry logic
+    process_posts("test.instagramPosts.json")  # Uncomment to run full processing
+    # retry_error_posts()  # Run only retry logic
